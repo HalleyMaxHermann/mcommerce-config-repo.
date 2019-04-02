@@ -1,0 +1,28 @@
+#Pointez vers le dossier créé :
+
+cd config-server-repo/
+
+#Initialisez un nouveau dépôt GIT local que nous allons pousser plus tard vers le distant :
+
+git init
+
+#Ajoutez les fichiers du dossier au GIT :
+
+git add .
+
+#Ajoutez l'URL du dépôt distant à celui-ci :
+
+git remote add origin https://NOM-UTILISATEUR:MOT-DE-PASSE@github.com/AmarMicroDev/mcommerce-config-repo.git
+
+#Veillez à faire les remplacements de nom d'utilisateur et de mot de passe, ainsi qu'à mettre votre propre URL à la place de la mienne.
+
+#Faites un commit du contenu :
+
+git commit -m "Premier commit"
+
+#Poussez enfin le tout vers le dépôt distant :
+
+git push -u origin master
+
+#Vous avez maintenant toutes les configurations du Microservice-produits disponibles dans le dépôt distant. Maintenant,
+ mettons en place le serveur de configuration.
