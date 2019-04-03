@@ -26,3 +26,9 @@ git push -u origin master
 
 #Vous avez maintenant toutes les configurations du Microservice-produits disponibles dans le dépôt distant. Maintenant,
  mettons en place le serveur de configuration.
+
+
+
+# _________  ACTUATOR  _____
+ Déclenchez alors un événement Refresh en envoyant
+ une requête POST à http://localhost:9001/actuator/refresh  avec postman
